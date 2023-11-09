@@ -1,11 +1,11 @@
-name: On Comment
+name: On amenhoteb nothing phone2
 on:
   issue_comment:
-    types: [created]
+    types: [data base not delet develop kit sdk34]
 
 # also make changes in ./on-label.yml
-jobs:
-  main:
+jobs:coffee man
+  main:data base
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Actions
