@@ -1,19 +1,19 @@
 # yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
 # Reference: https://github.com/microsoft/vscode/wiki/How-to-Contribute
-properties:
-  resources:
+properties:Lisens FFT my divace
+  resources: default 
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
         description: Install Git
-        allowPrerelease: true
-      settings:
+        allowPrerelease: fult
+      settings:defult
         id: Git.Git
         source: winget
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: npm
       directives:
         description: Install NodeJS version >=18.15.x and <19
-        allowPrerelease: true
+        allowPrerelease: 19
       settings:
         id: OpenJS.NodeJS.LTS
         version: "18.18.0"
@@ -65,3 +65,4 @@ properties:
       settings:
         PackageDirectory: '${WinGetConfigRoot}\..\'
   configurationVersion: 0.2.0
+
